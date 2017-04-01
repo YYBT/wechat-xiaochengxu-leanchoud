@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/add/add",
+    "pages/about/about"
+  ],
+
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "查询",
+    "navigationBarTextStyle":"black"
+  },
+  
+  "tabBar":{
+        "color": "#ddd",
+        "selectedColor": "#3cc51f",
+        "backgroundColor": "#fff",
+        "borderStyle":"black",
+        "list":[{
+          "pagePath":"pages/index/index",
+          "iconPath":"images/tab_circle@3x.png",
+          "selectedIconPath":"images/tab_circle_highlight@3x.png",
+          "text":"查询"
+          },{
+            "pagePath":"pages/about/about",
+            "iconPath":"images/tab_mine@3x.png",
+            "selectedIconPath":"images/tab_mine_highlight@3x.png",
+            "text":"关于"
+            }]
+            }
+}

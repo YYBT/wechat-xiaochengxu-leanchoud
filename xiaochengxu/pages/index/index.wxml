@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="section">
+    <input bindinput="bindKeyInput" type="number" class="input-st" placeholder="输入车牌号" value="{{textValue}}" />
+  </view>
+<button type="default"  bindtap="bindViewTap" > 查询 </button>
+<button type="default"  bindtap="addViewTap" > 添加 </button>
+<view wx:for="{{array}}" wx:key="xxx" style="flex-direction:column;" class="view-st">
+ <li class="item">
+  <text class="text">车牌:{{item.num}}</text>
+  <text class="text">密码:{{item.password}}</text>
+  </li>
+</view>
+</view>

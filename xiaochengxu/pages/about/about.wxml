@@ -1,0 +1,15 @@
+<view class="container">
+<map id="myMap" show-location />
+<label>作者</label>
+<image src="../../images/16147213.jpeg" class="imagest"></image>
+
+ <li class="item">
+  <label>yomonah</label>
+  </li>
+  <li class="item">
+  <label>更多源代码信息详情</label>
+  </li>
+  <li class="item">
+  <label>yomonah.github.io</label>
+  </li>
+</view>

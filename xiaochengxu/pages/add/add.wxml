@@ -1,0 +1,10 @@
+<view class="container">
+<view class="section">
+    <input bindinput="numInput" type="number" class="input-st" placeholder="输入车牌号" value="{{numValue}}" auto-focus/>
+  </view>
+  <view class="section">
+    <input bindinput="passwordInput" type="number" class="input-st" placeholder="输入密码" value="{{passwordValue}}" auto-focus/>
+  </view>
+<button type="default"  bindtap="bindViewTap" > 添加 </button>
+
+</view>
